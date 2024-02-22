@@ -2,32 +2,49 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.heroBackground {
+  background-image: url("/images/herobackground.png");
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.RatingBg {
+  background-image: url("/images/exportDiv.png");
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.bgcustomer {
+  background-image: url("/images/greenbg.png");
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.bgGroup {
+  background-image: url("/images/Group.svg");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: auto;
 }
+
+.bgTrial {
+  background-image: url("/images/vector1.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.bgTrialGroup{
+  background-image: url("/images/Group3.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.bgFooter {
+  background-image: url("/images/Vector5.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.bgFooterGroup{
+  background-image: url("/images/Group1.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: top center;
+}
+
+
+
+
